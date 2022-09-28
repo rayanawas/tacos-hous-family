@@ -1,0 +1,115 @@
+container{
+    padding: 20pt;
+    margin: 10pt;   
+}
+
+a{
+    /*color: rgb(130, 130, 131);*/
+    text-decoration: none;
+    font-size: 30px;
+    justify-content: center;
+}
+ul{
+   justify-content: space-around;
+    display: flex;
+    list-style: none;
+padding-top:5%;
+}
+h1{
+    text-align:center ;
+    padding-top: 10%;
+    font-size: 45px;
+   font-family: 'Bad Script', cursive;
+    color: white;
+    
+}
+span::first-letter{
+    color:yellow;
+}
+p{
+    font-size: 27px;
+    font-family: cursive;
+    color: white;
+    text-align:center ;   
+}
+.all{
+    background-image:  url('2983329351.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: bottom;
+}
+#img{
+    width: 45px;
+    justify-content: space-between;
+}
+
+a:hover{
+color: beige ;
+}
+
+#about{
+justify-items: center;
+margin-top:80px;
+display: flex;
+}
+
+/*@Keyframes slide{
+    0%{
+        
+    background-image: url('foodphotography-lead.jpg');
+    }
+    40%{
+    background-image:  url('foodphotography-lead.jpg');
+    }
+    40.01%{
+    background-image:  url('tacos-ces-sandwichs-hypercaloriques-sont-il-pires-que-des-burgers.jpeg');
+    }
+    70%{
+    background-image:  url('tacos-ces-sandwichs-hypercaloriques-sont-il-pires-que-des-burgers.jpeg');
+    }
+    70.01%{
+    background-image:  url('87b16c02615339dd9851836fe91f0f99\ modified.jpg');
+    }
+    99.99%{
+    background-image:  url('87b16c02615339dd9851836fe91f0f99\ modified.jpg');
+    }
+    100%{
+    background-image:  url('foodphotography-lead (1).jpg');
+    }
+}
+ <container>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="foodphotography-lead.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="87b16c02615339dd9851836fe91f0f99 modified.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="tacos-ces-sandwichs-hypercaloriques-sont-il-pires-que-des-burgers.jpeg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </container>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar scroll</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          
+          
+      </div>
+    </div>
+  </nav>*/
