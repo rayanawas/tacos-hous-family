@@ -1,0 +1,91 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption,tfoot,thead,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+td{
+		font-size: 1.6em;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+/* ---- stats.js ---- */
+
+
+
+
+
+
+
+    
+    
+#customers {
+  font-family: roboto;
+  border-collapse: collapse;
+  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    .tableau{
+     overflow-y: scroll;
+        width: 96%;
+        margin: auto;
+
+    }
+
+#customers td, #customers th {
+ 
+  padding: 12px;
+    padding-left: 7px;
+}
+
+  
+
+
+#customers th {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  background-color: #74b58adb;
+  color: white;
+    font-weight: bolder; 
+    font-size:1.38em;
+}
+
+
+
+
+
+
+   
+   
